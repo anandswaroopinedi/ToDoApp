@@ -1,0 +1,12 @@
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\bin\Debug\net8.0\Models.deps.json
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\bin\Debug\net8.0\Models.dll
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\bin\Debug\net8.0\Models.pdb
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.sourcelink.json
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.dll
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\refint\Models.dll
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\Models.pdb
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Models\obj\Debug\net8.0\ref\Models.dll

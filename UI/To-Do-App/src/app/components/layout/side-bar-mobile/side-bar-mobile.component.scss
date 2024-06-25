@@ -1,0 +1,22 @@
+@media only screen and (max-width: 900px) {
+  form {
+    margin-left: 5vw;
+    width: 100%;
+  }
+  .menu {
+    width: 90%;
+    height: 40px;
+    padding: 10px 10px;
+    color: black;
+    background-color: #edb046;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  option {
+    background-color: white;
+  }
+  option::selection {
+    background-color: #edb046;
+  }
+}

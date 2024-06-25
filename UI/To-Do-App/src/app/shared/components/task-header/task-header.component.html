@@ -1,0 +1,20 @@
+<div class="task-menu">
+  <div class="task-menu-heading">
+    <h1>
+      Today's
+      <span class="task-name" *ngIf="pageName.toLowerCase() != 'dashboard'"
+        >{{ pageName }}
+      </span>
+      Tasks
+    </h1>
+  </div>
+  <div class="operations">
+    @if(pageName.toLowerCase()=='dashboard') {
+    <button class="delete-button" (click)="deleteAll()">Delete All</button>
+    <h4 class="date">{{ today | date : "EEEE, dd MMMM yyyy" }}</h4>
+    } @else {
+    <div></div>
+    <h4 class="date">{{ today | date : "EEEE, dd MMMM yyyy" }}</h4>
+    }
+  </div>
+</div>

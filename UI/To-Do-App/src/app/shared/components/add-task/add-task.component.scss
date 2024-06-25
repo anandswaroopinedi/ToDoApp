@@ -1,0 +1,65 @@
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 10px;
+  height: 50px;
+  padding-left: 10px;
+  box-shadow: 2px 2px 6px 0px #0000001a;
+  border: none;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px 6px 0px #0000001a;
+}
+.form-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+}
+
+.operations {
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cancel-button {
+  border: 2px solid #edb046;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.save-button {
+  background-color: #edb046;
+  color: black;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+input:focus,
+textarea:focus {
+  border: 3px solid #5fa5ff;
+  outline: none;
+}
+.success {
+  margin-top: 5px;
+  color: green;
+  text-align: center;
+}
+.danger {
+  color: red;
+  text-align: center;
+}
+@media only screen and (max-width: 1280px) {
+  .operations {
+    width: 100%;
+    gap: 5%;
+    justify-content: flex-end;
+  }
+}

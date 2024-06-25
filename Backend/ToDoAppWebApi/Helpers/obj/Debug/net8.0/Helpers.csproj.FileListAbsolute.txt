@@ -1,0 +1,12 @@
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\bin\Debug\net8.0\Helpers.deps.json
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\bin\Debug\net8.0\Helpers.dll
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\bin\Debug\net8.0\Helpers.pdb
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfoInputs.cache
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.AssemblyInfo.cs
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.sourcelink.json
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.dll
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\refint\Helpers.dll
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\Helpers.pdb
+C:\Users\anand.i\Downloads\To-Do App\Backend\ToDoAppWebApi\Helpers\obj\Debug\net8.0\ref\Helpers.dll

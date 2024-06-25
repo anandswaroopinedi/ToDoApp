@@ -1,0 +1,27 @@
+<div class="add-button" (click)="sendAddTaskRequest()">
+  <p>Add Task</p>
+  <img src="../../assets/Add button.png" class="button-image" />
+</div>
+<div class="menu-items">
+  <p
+    (click)="select('Dashboard')"
+    routerLink="/home/dashboard"
+    routerLinkActive="selectedPage"
+  >
+    Dashboard
+  </p>
+  <p
+    (click)="select('Active')"
+    routerLink="/home/active"
+    routerLinkActive="selectedPage"
+  >
+    Active
+  </p>
+  <p
+    (click)="select('Completed')"
+    routerLink="/home/completed"
+    routerLinkActive="selectedPage"
+  >
+    Completed
+  </p>
+</div>
