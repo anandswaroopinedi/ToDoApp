@@ -1,13 +1,9 @@
 ﻿using AutoMapper;
 using BusinessLogicLayer.Interfaces;
-using DataAccessLayer.Entities;
+using EntitiesErrorLog = DataAccessLayer.Entities.ErrorLog;
 using DataAccessLayer.Interfaces;
-using Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ErrorLog = Models.InputModels.ErrorLog;
+using Models.DtoModels;
 
 namespace BusinessLogicLayer.Services
 {
@@ -20,9 +16,9 @@ namespace BusinessLogicLayer.Services
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-        public async Task addError(ErrorLogDto error)
+        public async Task addError(ErrorLog error)
         {
-            _unitOfWork.ErrorLogRepository.AddError(_mapper.Map<ErrorLog>(error));
+            _unitOfWork.ErrorLogRepository.AddError(_mapper.Map<EntitiesErrorLog>(_mapper.Map<ErrorLogDto>(error)));
             _unitOfWork.Commit();
         }
     }

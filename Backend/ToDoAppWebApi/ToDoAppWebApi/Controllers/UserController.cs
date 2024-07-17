@@ -1,10 +1,8 @@
 ﻿using BusinessLogicLayer.Interfaces;
-using BusinessLogicLayer.Services;
-using DataAccessLayer.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Models;
-using ToDoAppWebApi.NewFolder;
+using Models.DtoModels;
+using Models.InputModels;
+using messages = Common.Enums.Messages;
 
 namespace ToDoAppWebApi.Controllers
 {
@@ -17,51 +15,21 @@ namespace ToDoAppWebApi.Controllers
         {
             _userManager = userManager;
         }
-        [HttpPost("authenticate")]
-        public async Task<ApiResponse> AuthenticateUser(UserDto user)
-        {
-            int result = await _userManager.AuthenticateUser(user);
-            if (result == (int)ResponseMessages.Messages.Success)
-            {
-                return new ApiResponse
-                {
-                    Status = (int)ResponseMessages.Messages.Success,
-                    Message = "successfully logged in",
-                    Result = await _userManager.GenerateToken(result)
-                };
-            }
-            else if (result == 3)
-            {
-                return new ApiResponse
-                {
-                    Status = 3,
-                    Message = "Password is Incorrect",
-                };
-            }
-            else
-            {
-                return new ApiResponse
-                {
-                    Status = 4,
-                    Message = "UserName incorrect check the username",
-                };
-            }
-        }
         [HttpPost("add")]
-        public async Task<ApiResponse> AddUser(UserDto user)
+        public async Task<ResponseDto> AddUser(User user)
         {
-            int result = await _userManager.AddUser(user);
-            if (result == 1)
+            Boolean result = await _userManager.AddUser(user);
+            if (result)
             {
-                return new ApiResponse
+                return new ResponseDto
                 {
-                    Status = (int)ResponseMessages.Messages.Success,
+                    Status = (int)messages.Success,
                     Message = "Successfully registered",
                 };
             }
-            return new ApiResponse
+            return new ResponseDto
             {
-                Status = 3,
+                Status = (int)messages.Failure,
                 Message = "UserName Already Exists so choose other",
             };
 

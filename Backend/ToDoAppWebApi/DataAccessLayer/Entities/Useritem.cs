@@ -11,13 +11,17 @@ public partial class UserItem
 
     public int ItemId { get; set; }
 
-    public string CreatedOn { get; set; } = null!;
+    public DateTime? CreatedOn { get; set; }
 
-    public string? CompletedOn { get; set; }
+    public DateTime? CompletedOn { get; set; }
+
+    public DateTime? NotifyOn { get; set; }
 
     public int StatusId { get; set; }
 
     public int? IsDeleted { get; set; }
+
+    public int? IsNotifyCancelled { get; set; }
 
     public virtual Item Item { get; set; } = null!;
 

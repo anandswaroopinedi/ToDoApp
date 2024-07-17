@@ -1,14 +1,9 @@
-﻿using Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Models.InputModels;
 
 namespace BusinessLogicLayer.Interfaces
 {
     public interface IErrorLogManager
     {
-        public Task addError(ErrorLogDto error);
+        public Task addError(ErrorLog error);
     }
 }

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="To-Do-App-Api" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\anand\.i\\Source\\Repos\\Technovert-Product-Engineering\\full-web-app-anandswaroopinedi\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
