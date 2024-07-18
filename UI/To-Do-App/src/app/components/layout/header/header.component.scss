@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 40px 10px 0px;
+}
+.header-right-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.logo-text {
+  font-family: "Lexend";
+  font-size: 2vw;
+  font-weight: 700;
+  text-align: center;
+  color: #ba5112;
+  margin-top: 20px;
+  width: 19%;
+}
+.h2 {
+  font-family: "Lexend";
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+  color: #251814;
+}
+.add-button {
+  flex-direction: row;
+  display: none;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  gap: 2px;
+  border-radius: 8px;
+  opacity: 0px;
+  box-shadow: 0px 0px 20px 0px #0000001a;
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  cursor: pointer;
+  width: 100%;
+}
+.add-button p {
+  margin: 0px;
+  font-family: "Lexend";
+  font-size: 20px;
+  font-weight: 400;
+}
+.button-image {
+  width: 20px;
+}
+.notification{
+  margin: auto 20px;
+}
+.sign-out-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #ba5112;
+  cursor: pointer;
+}
+.sign-out-text {
+  color: white;
+  font-size: 16px;
+  margin: auto;
+}
+.sign-out-image {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+@media only screen and (max-width: 900px) {
+  .header {
+    gap: 0px;
+  }
+  .header-items {
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0px 10px 0px 0px;
+  }
+  .logo-text {
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+  }
+  .sign-out-text {
+    font-size: 12px;
+  }
+  .sign-out-image {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+  }
+  .sign-out-button {
+    margin: 13px 0px;
+    padding: 0px 2px;
+    width: 90px;
+    height: 40px;
+  }
+  .button-image {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+  }
+  .add-button p {
+    font-size: 12px;
+    margin: auto;
+  }
+  .add-button {
+    display: flex;
+    margin: 13px 0px;
+    width: 100px;
+    padding: 0px 2px;
+  }
+  .header-name {
+    display: none;
+  }
+  .notification{
+    margin: auto 15px auto 5px;
+  }
+}

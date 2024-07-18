@@ -1,0 +1,44 @@
+<form [formGroup]="taskForm" class="add-task-form">
+  <input formControlName="name" type="text" placeholder="Add title" />
+  @if(taskForm.controls['name'].invalid &&
+  (isSubmitted||taskForm.controls['name'].touched ||
+  taskForm.controls['name'].dirty)) {
+  <div *ngIf="taskForm.controls['name'].errors?.['required']">
+    <app-error [errorMessage]="requiredMessage"></app-error>
+  </div>
+  }
+  <textarea
+    formControlName="description"
+    rows="4"
+    cols="7"
+    placeholder="Add description"
+  ></textarea>
+  @if(taskForm.controls['description'].invalid &&
+  (isSubmitted||taskForm.controls['description'].touched ||
+  taskForm.controls['description'].dirty)) {
+  <div *ngIf="taskForm.controls['description'].errors?.['required']">
+    <app-error [errorMessage]="requiredMessage"></app-error>
+  </div>
+  }
+  <span class="time-header">Choose Notify Time:</span>
+  <input type="datetime-local" formControlName="notifyOn" class="notify-time" placeholder="notify-time">
+  @if(taskForm.controls['notifyOn'].invalid &&
+  (isSubmitted||taskForm.controls['notifyOn'].touched ||
+  taskForm.controls['notifyOn'].dirty)) {
+    <div *ngIf="taskForm.controls['notifyOn'].errors?.['required']">
+      <app-error [errorMessage]="requiredMessage"></app-error>
+    </div>
+  <div *ngIf="taskForm.controls['notifyOn'].errors?.['invalidTime']">
+    <app-error [errorMessage]="timeInvalid"></app-error>
+  </div>
+  }
+  <div class="form-buttons">
+    <div></div>
+    <div class="operations">
+      <button (click)="onCancel()" class="cancel-button">Cancel</button>
+      <button class="save-button" type="submit" (click)="onSubmit()">
+        Save
+      </button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,25 @@
+<div class="notifation-container">
+  <div (click)="displayNotifications()" class="bell-icon">
+    <i class="bi bi-bell notification-image"></i>
+    <p class="count" *ngIf="notificationIds.length > 0">
+      {{ notificationIds.length }}
+    </p>
+  </div>
+
+  <div
+    class="notification-menu"
+    [ngStyle]="!displayMenu ? { display: 'none' } : { display: 'flex' }"
+  >
+    <span aria-hidden="true" class="close menu-close" (click)="onCancelMenu()"
+      >&times;</span
+    >
+    <div class="header" *ngFor="let item of notificationMessages,index as idx">
+      <h6>Task {{ item }} is pending </h6>
+      <span aria-hidden="true" class="close" (click)="onCancelTask(idx)"
+        >&times;</span>
+    </div>
+    <div class="view-all"  routerLink="/pending">
+      <h6>View All <i style="color: #ba5112;" class="bi bi-arrow-right"></i></h6>
+    </div>
+  </div>
+</div>

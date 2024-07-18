@@ -545,11 +545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
+      "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\obj\\",
+      "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -566,8 +566,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj"
+            "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj"
             }
           }
         }

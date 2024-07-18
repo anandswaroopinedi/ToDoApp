@@ -1,0 +1,30 @@
+<div class="add-button" (click)="sendAddTaskRequest()">
+  <p>Add Task</p>
+  <img src="assets/Add button.png" class="button-image" />
+</div>
+<div class="menu-items">
+  <p
+    routerLink="/dashboard"
+    routerLinkActive="selectedPage"
+  >
+    Dashboard
+  </p>
+  <p
+    routerLink="/active"
+    routerLinkActive="selectedPage"
+  >
+    Active
+  </p>
+  <p
+    routerLink="/completed"
+    routerLinkActive="selectedPage"
+  >
+    Completed
+  </p>
+  <p
+    routerLink="/pending"
+    routerLinkActive="selectedPage"
+  >
+    Pending
+  </p>
+</div>

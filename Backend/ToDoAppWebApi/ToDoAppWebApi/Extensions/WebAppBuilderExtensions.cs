@@ -11,7 +11,6 @@ using System.Text;
 using BusinessLogicLayer.AutoMapper;
 using FluentValidation.AspNetCore;
 using System.Reflection;
-using DataAccessLayer.Tests;
 
 namespace ToDoAppWebApi.Extensions
 {
@@ -54,7 +53,6 @@ namespace ToDoAppWebApi.Extensions
         public static WebApplicationBuilder AddRepositories(this WebApplicationBuilder builder)
         {
             builder.Services.AddScoped<ToDoAppContext>();
-            builder.Services.AddScoped<ToDoAppContextTests>();
             builder.Services.AddScoped<IUserItemsRepository, UserItemsRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IItemsRepository, ItemsRepository>();

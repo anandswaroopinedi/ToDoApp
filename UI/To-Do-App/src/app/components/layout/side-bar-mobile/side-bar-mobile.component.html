@@ -1,0 +1,8 @@
+<form>
+  <select #menu class="menu" (change)="select(menu.value)">
+    <option value="dashboard" routerLink="/dashboard">Dashboard</option>
+    <option value="active" routerLink="/active">Active</option>
+    <option value="completed" routerLink="/completed">Completed</option>
+    <option value="pending" routerLink="/pending">Pending</option>
+  </select>
+</form>

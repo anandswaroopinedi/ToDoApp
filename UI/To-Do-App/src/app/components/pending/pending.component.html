@@ -1,0 +1,13 @@
+<div class="task-list">
+  <app-task-header></app-task-header>
+  <div class="filter">
+    <h4 class="heading">Sort:</h4>
+    <select #selectMenu class="sort-menu" (change)="sortTable($event)">
+        <option  value="name asc">Name Asc</option>
+        <option value="name desc">Name Desc</option>
+        <option  value="createdOn asc">CreatedOn Asc</option>
+        <option selected value="createdOn desc">CreatedOn Desc</option>
+    </select>
+  </div>
+  <app-task-menu [tasks]="pendingTasks" class="task-menu"></app-task-menu>
+</div>

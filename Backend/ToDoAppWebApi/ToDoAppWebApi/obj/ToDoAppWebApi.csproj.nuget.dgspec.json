@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj": {}
+    "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+    "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "projectName": "BusinessLogicLayer",
-        "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\obj\\",
+        "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
               },
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
+    "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\obj\\",
+        "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,8 +109,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj"
               }
             }
           }
@@ -166,99 +166,14 @@
         }
       }
     },
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayerTests\\DataAccessLayerTests.csproj": {
+    "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayerTests\\DataAccessLayerTests.csproj",
-        "projectName": "DataAccessLayerTests",
-        "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayerTests\\DataAccessLayerTests.csproj",
-        "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayerTests\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[3.0.4, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[3.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.6.0, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.20.70, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -275,8 +190,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
               }
             }
           }
@@ -322,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
+    "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\obj\\",
+        "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -377,14 +292,14 @@
         }
       }
     },
-    "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj": {
+    "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj",
         "projectName": "ToDoAppWebApi",
-        "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj",
+        "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\ToDoAppWebApi.csproj",
         "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\obj\\",
+        "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\ToDoAppWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -401,17 +316,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
               },
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
               },
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayerTests\\DataAccessLayerTests.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayerTests\\DataAccessLayerTests.csproj"
-              },
-              "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Models\\Models.csproj"
+              "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Models\\Models.csproj"
               }
             }
           }

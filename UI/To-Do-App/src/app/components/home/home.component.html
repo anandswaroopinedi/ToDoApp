@@ -1,0 +1,23 @@
+<app-notify-message *ngIf="isNotify" [message]="message"></app-notify-message>
+<div class="home" #home>
+  <app-header [isNotificationsRefreshed]="isNotificationsRefreshed" (flag)="openAddTaskContainer()" class="header"></app-header>
+  <div class="body">
+    <app-side-bar
+      (flag)="openAddTaskContainer()"
+      class="side-bar"
+    ></app-side-bar>
+    <app-side-bar-mobile class="mobile-side-bar"></app-side-bar-mobile>
+    <div class="right-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+<div #addTask class="add-task">
+  <app-add-task (close)="closeAddTaskContainer()"></app-add-task>
+</div>
+<div #deleteConfirmation class="delete-box">
+  <app-delete-confirmation
+    (close)="closeDeleteConfirmContainer()"
+    [id]="deleteItemId"
+  ></app-delete-confirmation>
+</div>

@@ -1,0 +1,46 @@
+.task-menu {
+    width: 100%;
+    margin: 10px 60px;
+  }
+  .task-list {
+    margin: 0px 30px 0px 30px;
+  }
+  
+  .heading{
+    margin: auto;
+    color: #ba5112;
+    margin-right: 20px;
+  }
+  .filter{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  select{
+    background-color:  #edb046;
+    border: none;
+    border-radius: 4px;
+  }
+  select:focus{
+    border: none;
+  }
+  option{
+    background-color: white;
+  }
+  @media only screen and (max-width: 900px) {
+    .task-list {
+      margin: 0px 10px 0px 0px;
+    }
+    .task-menu {
+      margin: 5px 0px;
+    }
+    .filter{
+      margin-right: 5px;
+      justify-content: flex-end;
+      margin-right: 15px;
+    }
+    .heading{
+      margin: 0px 10px ;
+    }
+  }
+  

@@ -4152,11 +4152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectUniqueName": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "projectName": "BusinessLogicLayer",
-      "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "packagesPath": "C:\\Users\\anand.i\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\obj\\",
+      "outputPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\BusinessLogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anand.i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4173,11 +4173,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
+            "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\Common\\Common.csproj"
             },
-            "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\anand.i\\Downloads\\To-Do App\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\anand.i\\OneDrive - Technovert\\Documents\\ToDoApp\\Backend\\ToDoAppWebApi\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

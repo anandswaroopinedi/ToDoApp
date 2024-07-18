@@ -1,0 +1,83 @@
+<div class="authenticate-body">
+    <div
+      class="info-container"
+      [ngStyle]="
+        isSignUp
+          ? { 'background-color': '#EDB046' }
+          : { 'background-color': 'white' }
+      "
+    >
+      <h2
+        class="heading"
+        [ngStyle]="isSignUp ? { color: 'white' } : { color: '#BA5112' }"
+      >
+        To-Do App
+      </h2>
+      <pre
+        class="description"
+        [ngStyle]="isSignUp ? { color: 'white' } : { color: '#251814' }"
+      >
+    Start organizing your life day by day</pre
+      >
+      <form class="form" [formGroup]="userForm">
+        <input
+          formControlName="userName"
+          #userName
+          type="text"
+          class="form-input"
+          placeholder="username"
+        />
+        @if(userForm.controls['userName'].invalid &&
+        (isSubmitted||userForm.controls['userName'].touched ||
+        userForm.controls['userName'].dirty)) {
+        <div class="error-message" *ngIf="userForm.controls['userName'].errors?.['required']">
+          <app-error  [errorMessage]="requiredMessage"></app-error>
+        </div>
+        <div class="error-message" *ngIf="userForm.controls['userName'].errors?.['pattern']">
+          <app-error  [errorMessage]="usernameErrorMessage"></app-error>
+        </div>
+        }
+        <div class="form-input password">
+          <input
+            formControlName="password"
+            #password
+            type="password"
+            class="password-text"
+            placeholder="password"
+          />
+          <i
+            [ngClass]="
+              isPasswordVisible
+                ? 'bi bi-eye eye-icon'
+                : 'bi bi-eye-slash eye-icon'
+            "
+            [ngStyle]="isSignUp?{'color':'red'}:{'color':'#EDB046'}"
+            (click)="makePasswordVisible()"
+          ></i>
+        </div>
+        @if(userForm.controls['password'].invalid &&
+        (isSubmitted||userForm.controls['password'].touched ||
+        userForm.controls['password'].dirty)) {
+        <div class="error-message" *ngIf="userForm.controls['password'].errors?.['required']">
+          <app-error [errorMessage]="requiredMessage"></app-error>
+        </div>
+        <div class="error-message" *ngIf="userForm.controls['password'].errors?.['pattern']">
+          <app-error
+            [errorMessage]="passwordErrorMessaage"
+          ></app-error>
+        </div>
+        }
+        <button type="submit" [ngStyle]="isSignUp?{'background-color':'#ba5112','color':'white'}:{'background-color':'#EDB046','color':'black'}" class="submit" (click)="onSubmit()">
+          {{ pageName }}
+        </button>
+      </form>
+      <p
+        class="footer"
+        [ngStyle]="isSignUp ? { color: 'white' } : { color: '#251814' }"
+      >
+        {{ footerMsg
+        }}<span class="navigate-link-text" (click)="navigate()">here.</span>
+      </p>
+    </div>
+  </div>
+  
